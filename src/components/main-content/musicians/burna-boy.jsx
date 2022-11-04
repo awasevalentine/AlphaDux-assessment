@@ -1,17 +1,23 @@
 import styled from "styled-components";
+import { musiciansImages } from "../../../services/musicians-images";
 
 const BurnaBoy = () => {
     return ( 
 
         <DivWrapper>
-            <ImageWrapper src="../../../../public/asset/images/burna_boys.svg" alt="Burna Boy Image" />
-            <TextWrapper>
-                <TextContent>
-                    <Title>Daily Vibes 1</Title>
-                    <MusicDescription>Burna Boy, Oxlade, Davido, Tems Wizkid, Tiwa Savage</MusicDescription>
-                </TextContent>
-               
-            </TextWrapper>
+            {
+                musiciansImages.map((details)=>(
+                    <SecondContainer>
+                        <ImageWrapper src={details.image}  alt={details.alt} />
+                        <TextWrapper>
+                            <TextContent>
+                                <Title>{details.title}</Title>
+                                <MusicDescription>{details.description}</MusicDescription>
+                            </TextContent>
+                        </TextWrapper>
+                    </SecondContainer>
+                ))
+            }
         </DivWrapper>
      );
 }
@@ -24,6 +30,13 @@ width: 226.38px;
 height: 285.01px;
 left: 337px;
 top: 482px;
+display: flex;
+flex-direction: row;
+`
+
+const SecondContainer = styled.div`
+margin: 10px;
+width: 100%;
 `
 
 
@@ -32,6 +45,7 @@ width: 226.38px;
 height: 285.01px;
 left: 337px;
 top: 482px;
+// margin: 10px
 `
 
 const TextWrapper = styled.div`
@@ -40,12 +54,12 @@ width: 225.57px;
 height: 74.92px;
 // left: 337.81px;
 top: 200px;
-background: linear-gradient(89.79deg, #AB491C -19.39%, #DDAE45 123.38%);
+// background: linear-gradient(89.79deg, #AB491C -19.39%, #DDAE45 123.38%);
 `
 
 const TextContent= styled.div`
     width: 100%;
-    padding: 10px 22px;
+    padding: 15px 22px;
 `
 
 
