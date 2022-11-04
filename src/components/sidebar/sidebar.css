@@ -1,0 +1,33 @@
+.sidebar_wrapper{
+    width: 296px !important;
+    height: 100vh;
+    position: fixed;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.577), rgba(0, 0, 0, 0.577)),
+    url('../../assets/background/sidebar-background.svg');
+    background-position: center center;
+    background-size: contain;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    cursor: pointer;
+    /* overflow-y: scroll; */
+    scrollbar-width: 3px !important;
+    overflow-y:auto
+} 
+
+.sidebar_wrapper::-webkit-scrollbar{
+    /* position: absolute;
+    width: 3px;
+    height: 127px;
+    left: 292px;
+    top: 188px;
+    color: #FBBA12; */
+    position: absolute;
+    width: 3px;
+    height: 818px;
+    left: 292px;
+    top: 97px;
+}
+
