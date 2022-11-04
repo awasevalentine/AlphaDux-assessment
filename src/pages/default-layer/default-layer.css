@@ -1,0 +1,94 @@
+/* Section for global css */
+hr{
+    position: absolute;
+    width: 231px;
+    height: 0px;
+    left: 30px;
+    top: 216.5px;
+
+    border: 0.5px solid #282828;
+}
+/* End */
+
+.others{
+    position: absolute;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+    color: white;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    z-index: 1;
+    background-color: rgba(0,0,0,0.8);
+
+}
+
+
+
+
+ .first_content{
+    display: block;
+    padding-top: 139px;
+ }
+
+ .first_content > .items{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+ }
+
+ .home-outline-icon{
+    position: absolute;
+    width: 17.97px;
+    height: 21px;
+    left: 33px;
+    top: 139px;
+    color: black !important;
+ }
+
+ .items > .home {
+    width: 55px;
+    height: 19px;
+    position: absolute;
+    left: 66px;
+    right: 93.7%;
+    top: 139px;
+    bottom: 85.37%;
+
+    font-family: 'Bw Modelica';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    /* color: #D9D9D9; */
+    
+ }
+
+ .node-index-icon{
+    position: absolute;
+    width: 17.35px;
+    height: 14px;
+    left: 34px;
+    top: 178px;
+ }
+
+ .items > .discover {
+    width: 72px;
+    height: 19px;
+    position: absolute;
+    left: 66px;
+    right: 92.81%;
+    top: 175px;
+    bottom: 82.04%;
+
+    font-family: 'Bw Modelica';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: black;
+
+    /* color: #D9D9D9; */
+ }
+  /* End of section for logo */
