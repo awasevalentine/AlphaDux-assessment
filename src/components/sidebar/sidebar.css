@@ -3,7 +3,7 @@
     height: 100vh;
     position: fixed;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.577), rgba(0, 0, 0, 0.577)),
-    url('../../assets/background/sidebar-background.svg');
+    url('/images/background/sidebar-background.svg');
     background-position: center center;
     background-size: contain;
     top: 0;

@@ -4,7 +4,7 @@ const SideBarYourLibrary = () => {
     return ( 
 
         <DivWrapper href="#">
-            <YourLibraryIcon src="../../../public/asset/icons/music_album_.svg" alt="Your Library Icon" />
+            <YourLibraryIcon src="/images/icons/music_album_.svg" alt="Your Library Icon" />
             <YourLibraryText>Your Library</YourLibraryText>
         </DivWrapper>
 

@@ -4,7 +4,7 @@ const MyPlayList = () => {
     return ( 
 
         <DivWrapper href="#">
-            <MyPlaylistIcon src="../../../public/asset/icons/records_.svg" alt="My PlayList Icon" />
+            <MyPlaylistIcon src="/images/icons/records_.svg" alt="My PlayList Icon" />
             <MyPlaylistText>My Playlists</MyPlaylistText>
         </DivWrapper>
      );

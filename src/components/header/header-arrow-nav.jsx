@@ -4,10 +4,10 @@ const HeaderNavArrows = () => {
     return ( 
         <DivWrapper>
             <BackArrowContainer>
-                <BackArrowImage src="../../../public/asset/icons/arrowbackios_.svg" alt="Back Arrow Nav" />
+                <BackArrowImage src="/images/icons/arrowbackios_.svg" alt="Back Arrow Nav" />
             </BackArrowContainer>
             <FrontArrowContainer>
-                <FrontArrowImage src="../../../public/asset/icons/arrow_front_ios.svg" alt="Front Arrow Nav" />
+                <FrontArrowImage src="/images/icons/arrow_front_ios.svg" alt="Front Arrow Nav" />
             </FrontArrowContainer>
         </DivWrapper>
      );

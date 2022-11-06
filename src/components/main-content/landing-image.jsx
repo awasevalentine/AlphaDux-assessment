@@ -37,7 +37,7 @@ const Image = styled.img`
     width: calc(100% - 310px);
     left: 311px;
     top: 105px;
-    background-image: url(../../public/asset/images/landingImage.svg);
+    background-image: url(/images/images/landingImage.svg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -49,7 +49,7 @@ const Image = styled.img`
     height: 200px;
     left: 311px;
     top: 105px;
-    background-image: url(../../public/asset/images/landingImage.svg);
+    background-image: url(/images/images/landingImage.svg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -61,7 +61,7 @@ const Image = styled.img`
     height: 255px;
     left: 311px;
     top: 105px;
-    background-image: url(../../public/asset/images/landingImage.svg);
+    background-image: url(/images/images/landingImage.svg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

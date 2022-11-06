@@ -3,7 +3,7 @@ import styled from "styled-components";
 const SideBarDiscover = () => {
     return ( 
         <DivWrapper href="#">
-            <DiscoverIcon src="../../../public/asset/icons/xfce4_eyes_.svg" alt="Discover Icon" />
+            <DiscoverIcon src="/images/icons/xfce4_eyes_.svg" alt="Discover Icon" />
             <DiscoverText>Discover</DiscoverText>
         </DivWrapper>
      );

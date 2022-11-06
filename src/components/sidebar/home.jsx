@@ -3,7 +3,7 @@ import styled from "styled-components";
 const SideBarHomeText = () => {
     return ( 
         <DivWrapper href="#">
-            <HomeIcon src="../../../public/asset/icons/Home_with_Roof_Made_of_Palm_Branches_.svg" alt="Home With Room" />
+            <HomeIcon src="/images/icons/Home_with_Roof_Made_of_Palm_Branches_.svg" alt="Home With Room" />
             <HomeText>Home</HomeText>
         </DivWrapper>
 

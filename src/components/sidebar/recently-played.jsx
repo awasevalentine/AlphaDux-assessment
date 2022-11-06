@@ -4,7 +4,7 @@ const RecentlyPlayedSongs = () => {
     return ( 
 
         <DivWrapper href="#">
-            <RecentlyPlayedSongIcon src="../../../public/asset/icons/audio_.svg" alt="Recently played Songs Icon" />
+            <RecentlyPlayedSongIcon src="/images/icons/audio_.svg" alt="Recently played Songs Icon" />
             <RecentlyPlayedSongText>Recently Played</RecentlyPlayedSongText>
         </DivWrapper>
 

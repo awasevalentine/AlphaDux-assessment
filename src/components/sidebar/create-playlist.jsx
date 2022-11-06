@@ -4,7 +4,7 @@ const CreatePlayList = () => {
     return ( 
 
         <DivWrapper href="#">
-            <CreatePlaylistIcon src="../../../public/asset/icons/media_playlist_append_.svg" alt="Create PlayList Icon" />
+            <CreatePlaylistIcon src="/images/icons/media_playlist_append_.svg" alt="Create PlayList Icon" />
             <CreatePlaylistText>Create Playlist</CreatePlaylistText>
         </DivWrapper>
 

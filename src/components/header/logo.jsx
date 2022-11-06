@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { device } from "../media-queries/media-query";
 
 const LogoComponent = () => {
-    const image = '../../../../public/asset/logo/logo.svg';
+    const image = '/images/logo/logo.svg';
 
 
     return ( 

@@ -4,7 +4,7 @@ const HeaderSearchBtn = () => {
     return ( 
         <>
         <HeaderInputWrapper type="text" />
-        <SearchBtnImage src="../../../public/asset/icons/search_.svg" alt="Search Icon" />
+        <SearchBtnImage src="/images/icons/search_.svg" alt="Search Icon" />
         </>
      );
 }

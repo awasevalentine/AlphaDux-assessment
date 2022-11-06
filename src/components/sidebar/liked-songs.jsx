@@ -4,9 +4,9 @@ const SideBarLikedSongs = () => {
     return ( 
 
         <DivWrapper href="#">
-            <LikedSongsIcon src="../../../public/asset/icons/love_france_heart_national_culture_paris_.svg" alt="Liked Songs Icon" />
+            <LikedSongsIcon src="/images/icons/love_france_heart_national_culture_paris_.svg" alt="Liked Songs Icon" />
             <LikedSongsText>Liked Songs</LikedSongsText>
-            <SuffixIcon src="../../../public/asset/icons/sound_on_.svg" alt="Sounds Icon"/>
+            <SuffixIcon src="/images/icons/sound_on_.svg" alt="Sounds Icon"/>
         </DivWrapper>
 
      );
