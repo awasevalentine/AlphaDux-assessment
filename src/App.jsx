@@ -4,7 +4,7 @@ import DefaultLayer from './pages/default-layer/default-layer'
 function App() {
 
   return (
-    <div className="App">
+    <div className="App" style={{overflow: 'hidden'}}>
       <DefaultLayer />
     </div>
   )

@@ -11,15 +11,6 @@ const HeaderSearchBtn = () => {
  
 export default HeaderSearchBtn;
 
-const DivWrapper = styled.div`
-    box-sizing: border-box;
-    position: absolute;
-    width: 471px;
-    height: 56px;
-    left: 483px;
-    top: 21px;
-    border: 1px solid #0F0F0F;
-`
 
 const HeaderInputWrapper = styled.input`
     box-sizing: border-box;

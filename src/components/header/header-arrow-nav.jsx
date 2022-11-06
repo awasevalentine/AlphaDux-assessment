@@ -20,20 +20,13 @@ display: flex;
 flex-direction: row
 `
 
-const BackArrowContainer = styled.div.attrs(()=>
-({tableIndex: 0}))`
+const BackArrowContainer = styled.div`
     position: absolute;
     width: 48px;
     height: 41px;
     left: 305px;
     top: 28px;
     cursor: pointer
-
-    // &:hover{
-    //     color: red;
-    //     background-color: blue;
-    //     border: 2px solid red;
-    // }
 `
 
 const BackArrowImage = styled.img`
