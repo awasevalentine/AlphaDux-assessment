@@ -71,7 +71,7 @@ overflow-y: hidden;
     width: 100%;
     height: 285.01px;
     left: 337px;
-    top: 690px;
+    top: 950px;
     display: flex;
     flex-direction: row;
     }

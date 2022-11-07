@@ -24,8 +24,9 @@ export default DefaultLayer;
 
 const SidebarWrapper = styled.div`
 display: none;
+height: 100%;
 
 @media ${device.laptop}{
-  display: flex
+  display: flex;
 }
 `

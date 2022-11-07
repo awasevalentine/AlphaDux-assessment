@@ -154,6 +154,6 @@ const CheersToWeekend = styled.h2`
     width: 356px;
     height: 17px;
     left: 338px;
-    top: 619px;
+    top: 850px;
 }
 `

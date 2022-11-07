@@ -19,13 +19,22 @@ const HomePage = () => {
 export default HomePage;
 
 const ContentWrapper = styled.div`
-position: relative;
+position: absolute;
 width: 100%;
-height: 926px;
+height: 100%;
 background: #000000;
 
 @media ${device.laptop}{
-    width: 1920px;
-    height: 1080px;
+    height: 800px
+} 
+
+
+@media ${device.laptopL}{
+    height: 1200px
+}  
+
+
+@media ${device.laptop}{
+    height: 1400px
 }   
 `
